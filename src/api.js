@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3100/api',
+  baseURL: 'https://motorent-backend-sage.vercel.app/api',
   withCredentials: true, 
 });
 
